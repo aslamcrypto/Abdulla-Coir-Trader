@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.logo{
+    width: 65px;
+ 
+    border-radius:50%;
+   position: absolute;
+   left:250px;
+
+   
+ 
+    
+}
+
+
+table ,td{
+ 
+    padding: 15px;
+    
+    text-align: left;
+    
+   
+
+}
+
+table{
+    width:-550px;
+    position: relative;
+  
+    font-weight:bolder;
+}
+body{
+    min-width:fit-content;
+  
+    
+}
+
+th{
+  
+    background-color:goldenrod;
+   padding:15px;
+    text-align: left;
+    
+   border-bottom:3px  rgb(0, 0, 0);
+   
+    color: goldenrod;
+    color: whitesmoke;
+}
+.odd5{
+    border-bottom:0px;
+}
+#title{
+    
+    background-color:gray;
+font-size: 25px;
+color: rgb(253, 253, 253);
+text-align: center;
+padding: 20px 0px;
+border-bottom:2px solid rgb(255, 255, 255);
+}
+#PRODUCT{
+    
+    color: rgb(255, 255, 255);
+}
+#foott{
+    text-align: center;
+}
+.odd{
+    background-color: goldenrod;
+}
+.dd1,.dd2,.dd3{
+    background-color: white;
+    color: black;
+}
+.dd3{
+    text-align: right;
+}
+.dd2{
+    text-align: center;
+    font-size: 10px;
+    
+}
+tr{
+    background-color: gray;
+}
+.dd1{
+    text-align: left;
+}
+img{
+    width: 50px;
+   position: relative;
+   left: 18px
+   
+}
+span{
+    color: rgb(204, 152, 20);
+}
+h1{
+    font-size:50px;
+    margin-bottom:15px;
+    
+}
+nav{
+    background-color:rgb(0, 0, 0);
+}
+ul{
+    list-style: none;
+    height: 40px;
+   padding:5px;
+    justify-content: space-around;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-size:15px;
+   font-family:sans-serif;
+   text-transform: uppercase;
+  
+}
+a{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+  
+ 
+}
+li{
+    padding:5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+
+   
+    cursor: pointer;
+    display:block;
+
+    
+}
+
+.contian{
+   
+    justify-content: center;
+
+    display:flex;
+}
+header{
+    text-align: center;
+    
+}
+a:hover{
+   
+
+  
+   
+}
+li:hover{
+    color: goldenrod;
+
+    background-color: gold;
+    
+}
+hr{
+    margin-top:10px;
+    border-width: 2px;
+    border-radius: 30px;
+  
+}
+
+
+.container{
+    justify-content: center;
+    display: grid;
+    grid-template: repeat(5,20rem)/repeat(3,23rem);
+    gap:80px 10px;
+    
+
+    
+}
+.gallery{
+    justify-content: center;
+    margin-top:80px;
+
+    
+   
+}
+.boxs{
+    font-size:1rem;
+}
+
+.right{
+    float: left;
+    padding:10px;
+}
+.leftt{
+    float:right;
+    padding: 10px;
+}
+
+.NO1{background-color: rgb(46, 46, 214);
+    background-image: url('https://www.pnsafetyind.com/images/slider/slider2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:6px 8px 10px gray;
+    margin-right:10px;
+}
+
+
+.NO2{
+grid-column:span 2;
+
+}
+
+.NO3{
+    grid-column:span 2;
+    text-align:right;
+    
+}
+.NO4{
+    background-color: rgb(200, 46, 214);
+    background-color: rgb(46, 46, 214);
+    background-image: url('https://sc04.alicdn.com/kf/H3415904884d942ea9ba3d27877ef44e5h.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:-6px 8px 10px gray;
+    margin-left:10px;
+}
+.NO5{
+    background-color: rgb(46, 214, 110);
+    background-image: url('https://5.imimg.com/data5/IP/VI/CD/IOS-2808406/product-jpeg-500x500.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:6px 8px 10px gray;
+    margin-right:10px;
+}
+.NO6{
+    grid-column:span 2;
+    
+}
+.NO7{
+    grid-column:span 2;
+    text-align:right;
+    
+}
+.NO8{
+    background-color: rgb(214, 46, 68);
+    background-image: url('https://image.ec21.com/image/nathenterprise/oimg_GC10741827_CA10741839/HDPE-Rope.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:-6px 8px 10px gray;
+    margin-left:10px;
+    
+}
+.NO9{
+    background-color: rgb(214, 203, 46);
+    background-image: url('https://www.amirajplasticind.com/images/banner3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow:6px 8px 10px gray;
+    margin-right:10px;
+    
+}
+.NO10{
+    grid-column:span 2;
+    
+}
+
+
+@media screen and (max-width:800px) {
+    
+}
+
+
+
